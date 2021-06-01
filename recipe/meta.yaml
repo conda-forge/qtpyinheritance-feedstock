@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/klauer/qtpyinheritance/archive/v{{ version }}.tar.gz
-  sha256: 1a2194d75d49d2ec1839ab0db786c322ca67131109377f61419372b7ffd0f372
+  sha256: f2c03b0a5732b5e869ff62ae66d429c08d7a3def547e352d5823bbfa1f5b00a6
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -19,6 +19,7 @@ requirements:
     - python >=3.6
     - pip
   run:
+    - python >=3.6
     - qtpy
 
 test:
@@ -38,3 +39,5 @@ about:
 extra:
   recipe-maintainers:
     - klauer
+    - zllentz
+    - zrylettc
