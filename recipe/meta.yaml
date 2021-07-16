@@ -1,5 +1,5 @@
 {% set name = "qtpyinheritance" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/klauer/qtpyinheritance/archive/v{{ version }}.tar.gz
-  sha256: f2c03b0a5732b5e869ff62ae66d429c08d7a3def547e352d5823bbfa1f5b00a6
+  sha256: a1fefe895598cb4cdb3e6f2acdaf5ed04dcd33d4087266e9d1d4498a664b4e5e
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
