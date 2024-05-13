@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/klauer/qtpyinheritance/archive/v{{ version }}.tar.gz
+  url: https://github.com/pcdshub/qtpyinheritance/archive/v{{ version }}.tar.gz
   sha256: 493a854a36bd0e05378dbf0fbd7b36d0bc1f21c9b93426afe8514417b1ce7c4b
 
 build:
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
   run:
-    - python >=3.6
+    - python >=3.9
     - qtpy
 
 test:
@@ -29,8 +29,8 @@ test:
     - pyqt
 
 about:
-  home: https://github.com/klauer/qtpyinheritance
-  dev_url: https://github.com/klauer/qtpyinheritance
+  home: https://github.com/pcdshub/qtpyinheritance
+  dev_url: https://github.com/pcdshub/qtpyinheritance
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -38,6 +38,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - klauer
-    - zllentz
-    - zrylettc
+    - conda-forge/pcdsdevices
