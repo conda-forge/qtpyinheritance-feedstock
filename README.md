@@ -3,13 +3,13 @@ About qtpyinheritance-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qtpyinheritance-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/klauer/qtpyinheritance
+Home: https://github.com/pcdshub/qtpyinheritance
 
 Package license: BSD-3-Clause
 
 Summary: qtpy tools for dealing with property/slot forwarding from base classes and inheritance in general
 
-Development: https://github.com/klauer/qtpyinheritance
+Development: https://github.com/pcdshub/qtpyinheritance
 
 Current build status
 ====================
@@ -145,7 +145,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@klauer](https://github.com/klauer/)
-* [@zllentz](https://github.com/zllentz/)
-* [@zrylettc](https://github.com/zrylettc/)
+* [@conda-forge/pcdsdevices](https://github.com/conda-forge/pcdsdevices/)
 
