@@ -11,15 +11,15 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - qtpy
 
 test:
@@ -27,6 +27,7 @@ test:
     - qtpyinheritance
   requires:
     - pyqt
+    - python {{ python_min }}
 
 about:
   home: https://github.com/klauer/qtpyinheritance
